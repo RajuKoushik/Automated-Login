@@ -3,7 +3,7 @@
 
 script=login.txt
 
-#This script is suitable for a HTML page with 2 fields of 'username' and 'password' with a submit button.
+#This script is suitable for a HTML page which has 2 fields of 'username' and 'password' with a submit button.
 #This script uses 'lynx' which automatically loads the website into the command prompt.
 #Now, the fields can be navigated easily using the 'tab' keys, and the text fields can be filled with ease.
 
