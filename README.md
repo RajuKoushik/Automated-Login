@@ -14,7 +14,7 @@ This is a bash script for an automated login to a portal built using 'lynx'. The
 <enter>->Then enter the following command.
 
 
-<enter>    `sudo apt-get install lynx`
+      `sudo apt-get install lynx`
 <enter>
 
 
@@ -50,9 +50,9 @@ This is a bash script for an automated login to a portal built using 'lynx'. The
 The 'login' bash script should be added inbetween and now, the whole code should be added in the rc.local (before exit 0) for its automatic execution after 20 seconds after boot.
 
 
-    `(sleep 20
+    ` (sleep 20
     ......
-    )&`
+    )& `
   
 
 
