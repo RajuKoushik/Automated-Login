@@ -41,7 +41,7 @@ This is a bash script for an automated login to a portal built using 'lynx'. The
   You have to add the command to the **rc.local** file.(sudo permissions are required gor editing the rc.local file)
     
     
-    **Command to open the rc.local file-**
+  **Command to open the rc.local file-**
     
     
     `sudo gedit /etc/rc.local`
