@@ -34,6 +34,25 @@ This is a bash script for an automated login to a portal built using 'lynx'. The
   
   
 <enter>  `./file_name.sh`
+
+
+**For the execution of the bash file on boot :-**
+
+    You have to add the command to the **rc.local** file.(sudo permissions are required gor editing the rc.local file)
+    
+    
+    **Command to open the rc.local file-**
+    
+    
+    `sudo gedit /etc/rc.local`
+    
+    
+The 'login' bash script should be added inbetween and now, the whole code should be added in the 'rc.local' (before exit 0) for its automatic execution after 20 seconds after boot.
+
+
+    `(sleep 20
+    ......
+    )&`
   
 
 
