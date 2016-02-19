@@ -3,6 +3,8 @@
 IF=$1
 STATUS=$2
 
+#IIITV1 is the wifi ssd of our college. This IIITV1 can be replaced with the target wifi name.
+
 if [ "$IF" == "IIITV1" ]
 then
     case "$2" in
