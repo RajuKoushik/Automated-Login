@@ -25,6 +25,9 @@ This is a bash script for an automated login to a portal built using 'lynx'. The
 <enter>Download the bash code and change the username and password and then run it.(Whoa! You have logged in now).
 
 
+
+
+
 <enter>
 **Command to run a bash code on terminal-**
 
@@ -53,6 +56,29 @@ The 'login' bash script should be added inbetween and now, the whole code should
     ` (sleep 20
     ......
     )& `
+    
+    
+**Automated execution of the bash file after connecting to a wifi-network-**
+
+
+
+For this to happen the Network Manager has to be installed.
+
+
+Command to install Network Manager-
+
+
+`sudo apt-get install NetworkManager` 
+
+
+Then place [this](https://github.com/RajuKoushik/Automated-Login/blob/master/automatic_login_after_wifi_connection.sh) in the following directory.
+
+
+`/etc/NetworkManager/dispatcher.d/`
+
+
+Now the script gets automatically executed when a wifi connection is established.
+    
   
 
 
